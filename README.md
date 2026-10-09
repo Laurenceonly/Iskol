@@ -1,15 +1,23 @@
 # ISKOL
 
-A simple place to keep your schoolwork together. ISKOL helps students organize subjects, class schedules, and notes in one workspace.
+ISKOL is a student productivity app that brings subjects, class schedules, and notes into one workspace. It is designed to help students see what needs attention without switching between separate tools.
 
-## What you can do
+## Highlights
 
-- See your subjects, pending work, and today's classes on the dashboard.
-- Keep subject details and recurring class times together.
-- Browse your timetable by month or week.
-- Write notes and connect them to subjects.
-- Choose a light or dark theme.
+- Dashboard with subjects, pending work, and today's classes.
+- Subject pages with details and recurring class times.
+- Month and week timetable views.
+- Notes connected to subjects.
+- Light and dark themes.
 
-## Public preview
+## Built with
 
-ISKOL is currently running locally while I prepare it for hosting. A link to try it will be added here when the public preview is ready.
+Next.js, React, TypeScript, Tailwind CSS, and Supabase.
+
+## Project status
+
+ISKOL is currently a local project. A public preview will be linked here when it is ready.
+
+## About this repository
+
+This repository contains the application source. The public preview and screenshots are still being prepared.
