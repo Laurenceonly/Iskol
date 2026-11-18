@@ -1,16 +1,24 @@
 # ISKOL
 
-ISKOL is a web workspace for students who want their class timetable, schoolwork, and notes in one place. Use the dashboard to see which classes meet today and what work is still pending.
+ISKOL is a web planner for students managing a semester of classes, assignments, and study notes. Set up your subjects and recurring class times once, then use the dashboard each day to see where you need to be and what work is still due.
 
-## Student workspace
+![ISKOL Today dashboard with a class timeline, assignments due today, and recent notes](docs/images/dashboard.png)
 
-- **Subjects and schedules** — Save a subject’s course code and instructor, then add recurring class times and optional room details.
-- **Calendar** — See when classes meet based on the schedules saved under your subjects.
-- **Notes** — Keep a standalone note or link it to a subject so it’s easier to find when you study.
+*Today dashboard from the ISKOL design preview, shown with sample student data.*
+
+## Plan your school day
+
+- **Start with today.** Check upcoming classes and pending schoolwork on the dashboard.
+- **Build your timetable.** Save each subject's course code and instructor, add weekly meeting times and rooms, and use the calendar to see when classes meet.
+- **Find your study notes.** Link notes to a subject to keep lecture material and review notes together, or save a standalone note for quick reference.
+
+![ISKOL calendar with a selected day and an agenda showing class times and rooms](docs/images/calendar.png)
+
+*Calendar from the ISKOL design preview, shown with a sample class schedule.*
 
 ## Run locally
 
-ISKOL uses Next.js, TypeScript, Tailwind CSS, and Supabase for authentication and data storage. Sign-in and student workflows require a Supabase project with the ISKOL database schema and access policies in place. Database setup is managed separately.
+ISKOL is built with Next.js, TypeScript, and Tailwind CSS. Sign-in and student workflows require a Supabase project with the ISKOL database schema and access policies configured.
 
 1. Install dependencies with `npm ci`.
 2. Copy [`.env.example`](.env.example) to `.env.local` and fill in your project settings there. The example contains placeholders only.
