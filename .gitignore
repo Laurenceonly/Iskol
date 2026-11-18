@@ -34,6 +34,21 @@ yarn-error.log*
 .env*
 !.env.example
 
+# local agent configuration and development notes
+/.agents/
+/.codex/
+/.claude/
+/.impeccable
+/.impeccable.*
+/AGENTS.md
+/CLAUDE.md
+/knowledge.md
+/docs/codex-setup-report.md
+
+# local development artifacts
+/output/
+/tmp/
+
 # vercel
 .vercel
 
