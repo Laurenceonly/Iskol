@@ -1,15 +1,17 @@
 # ISKOL
 
-A simple place to keep your schoolwork together. ISKOL helps students organize subjects, class schedules, and notes in one workspace.
+ISKOL is a web workspace for students who want their class timetable, schoolwork, and notes in one place. Use the dashboard to see which classes meet today and what work is still pending.
 
-## What you can do
+## Student workspace
 
-- See your subjects, pending work, and today's classes on the dashboard.
-- Keep subject details and recurring class times together.
-- Browse your timetable by month or week.
-- Write notes and connect them to subjects.
-- Choose a light or dark theme.
+- **Subjects and schedules** — Save a subject’s course code and instructor, then add recurring class times and optional room details.
+- **Calendar** — See when classes meet based on the schedules saved under your subjects.
+- **Notes** — Keep a standalone note or link it to a subject so it’s easier to find when you study.
 
-## Public preview
+## Run locally
 
-ISKOL is currently running locally while I prepare it for hosting. A link to try it will be added here when the public preview is ready.
+ISKOL uses Next.js, TypeScript, Tailwind CSS, and Supabase for authentication and data storage. Sign-in and student workflows require a Supabase project with the ISKOL database schema and access policies in place. Database setup is managed separately.
+
+1. Install dependencies with `npm ci`.
+2. Copy [`.env.example`](.env.example) to `.env.local` and fill in your project settings there. The example contains placeholders only.
+3. Run `npm run dev` and open `http://localhost:3000`.
