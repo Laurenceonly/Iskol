@@ -12,10 +12,6 @@ ISKOL is a web planner for students managing a semester of classes, assignments,
 - **Build your timetable.** Save each subject's course code and instructor, add weekly meeting times and rooms, and use the calendar to see when classes meet.
 - **Find your study notes.** Link notes to a subject to keep lecture material and review notes together, or save a standalone note for quick reference.
 
-![ISKOL calendar with a selected day and an agenda showing class times and rooms](docs/images/calendar.png)
-
-*Calendar from the ISKOL design preview, shown with a sample class schedule.*
-
 ## Run locally
 
 ISKOL is built with Next.js, TypeScript, and Tailwind CSS. Sign-in and student workflows require a Supabase project with the ISKOL database schema and access policies configured.
